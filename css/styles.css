@@ -1,0 +1,63 @@
+
+#diffFont {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    background-color: rgb(128, 180, 121);
+    overflow: hidden;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+.navbar a {
+    font-size: 18px;
+    padding: 14px 16px;
+    float: left;
+    color:white;
+    text-align: center;
+  }
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+/* make cover images auto-resize to fit window size */
+.cover {
+  height: auto;
+  max-width: 100%;
+}
+
+.top {
+  height: auto;
+  max-width: 100%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.supp {
+  max-width: 250px;
+  max-height: 350px;
+}
+
+p,h1,h2,h3,h4 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* add borders and padding to all tables */
+table {
+  border: 1px solid;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background-color: rgb(168, 216, 162);
+}
+th, td {
+  border: 1px solid;
+  padding: 8px;
+}
+
+form {
+  background-color: lightskyblue;
+}
+
+footer {
+  text-align: center;
+}
